@@ -2,8 +2,6 @@
     list-style: none;
     text-decoration: none;
     font-family: sans-serif;
-    padding: 0px;
-    margin: 0px;
 }
 
 body{
@@ -23,5 +21,9 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.shove{
+    margin-left: auto;
 }
