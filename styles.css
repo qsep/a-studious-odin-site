@@ -142,4 +142,43 @@ button{
     margin-left: auto;
 }
 
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
 
+.button-section *{
+    color:#f9faf8
+}
+
+.blue-box{
+    background-color: #3882f6;
+    flex: auto;
+    min-height: 130px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue-box-text *{
+    margin: 2px;
+}
+
+.action{
+    font-weight: 700;
+}
+
+.button-section button{
+    display: flex;
+    outline: #f9faf8 solid 2px;
+    font-weight: 700;
+    max-height: 32px;
+    align-items: center;
+    justify-content: center;
+    
+}
